@@ -32,13 +32,15 @@ Solvio is a modern job discovery platform designed to simplify the hiring proces
 
 ---
 
-## 📁 Project Structure
+## Project Structure
+solvio-job-finder/
 ├── backend/ # Express backend
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── services/
-│ └── server.js
+│ ├── controllers/ # Handle request logic
+│ ├── db/ # Database connection and config
+│ ├── middlewares/ # Custom middlewares (auth, error handling, etc.)
+│ ├── models/ # Mongoose schemas and data models
+│ ├── routes/ # API route definitions
+│ ├── utils/ # Utility/helper functions
 ├── frontend/ # React frontend
 ├── .gitignore
 ├── README.md
